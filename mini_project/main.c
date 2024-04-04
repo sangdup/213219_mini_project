@@ -21,7 +21,7 @@ printf("Enter the method:\n 1.Trapezoidal\n 2.Simpsons\n 3. corrected_trapezoida
 scanf("%d",&s);
     switch(s)
      {
-        case(1):
+        case(1):              //Trapezoidal Rule
          { n=2;
             new_integral = trapezoidal(f,a,b,n);  
            do{ 
@@ -34,7 +34,7 @@ scanf("%d",&s);
             break;
          }
 
-         case(2):
+         case(2):             //Simpson's Rule
           {  n=2;
             new_integral = simpsons(f,a,b,n);
              do{
@@ -47,7 +47,7 @@ scanf("%d",&s);
                 break; 
           }
 
-         case(3):
+         case(3):             //Corrected Trapezoidal Rule
          {  double deriv, corr, f1, f2, f3;
 
             new_integral = trapezoidal(f,a,b,n);  
@@ -67,7 +67,7 @@ scanf("%d",&s);
             break; 
          } 
 
-         case(4):
+         case(4):               //Corrected Simpson's Rule
          {
             double deriv, corr, f1, f2, f3;
             new_integral = simpsons(f, a, b, n);
@@ -99,9 +99,6 @@ scanf("%d",&s);
             break;
           }
      }
-
-  
 }
 return 0;
-
 }
