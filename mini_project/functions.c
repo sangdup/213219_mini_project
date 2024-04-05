@@ -4,7 +4,7 @@
 
 double f(double x)
  {
-  return pow(2.71828, -pow(x,2));
+  return 1/(1+x);
  }
 
 
