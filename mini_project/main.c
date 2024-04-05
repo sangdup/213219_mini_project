@@ -17,7 +17,7 @@ int main()
     scanf("%lf",&eps);
 while(1)
 {
-printf("Enter the method:\n 1.Trapezoidal\n 2.Simpsons\n 3. corrected_trapezoidal\n 4. corrected_simpsons\n 5.Exit\n");
+printf("Enter the method:\n 1.Trapezoidal\n 2.Simpsons\n 3.corrected_trapezoidal\n 4.corrected_simpsons\n 5.Exit\n");
 scanf("%d",&s);
     switch(s)
      {
