@@ -6,7 +6,7 @@
 
 int main()
 {
-     int n, s;
+    int n, s;
     double a, b, eps, integral, new_integral, h=0.2;
 
     printf("\nEnter the lower limit: ");
